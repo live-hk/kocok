@@ -1,0 +1,450 @@
+/*-------- CSS -------------*/
+/* ------------------Reset--------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+
+/* start */
+
+body {
+	background-color: black;
+	font-family: 'Roboto Mono', monospace;
+	
+}
+
+div {
+	box-sizing: border-box;
+	
+}
+
+.result {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000;
+    text-align: center;
+    padding: 5px 0
+
+}
+
+.result h3 {
+    font-size: 36px;
+    color: #ff0000;;
+}
+
+.result table {
+    width: 100%
+}
+
+.tnglress {
+    background: #ff0;
+    font-size: 24px;
+    text-align: center;
+    border: 1px #000 solid
+}
+
+.result {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000;
+    text-align: center;
+    padding: 5px 0
+}
+
+.result h3 {
+    font-size: 36px;
+    color: #0076de
+}
+
+.result table {
+    width: 100%
+}
+
+.tnglress {
+    background: #ff0;
+    font-size: 24px;
+    text-align: center;
+    border: 1px #000 solid
+}
+
+.varress {
+    font-size: 20px;
+    text-align: center;
+    border: 1px #a7a6a6 solid;
+    color: fff
+}
+.container {
+	width: 65%;
+	margin: auto;
+	
+}
+
+.head {
+	width: 100%;
+	text-align: center;
+	padding: 15px;
+	background: #ffffff;
+}
+
+.logo {
+	display: block;
+	width: 420px;
+	height: 150px;
+	background: url(/img/logo-live-draw-sgp.png) center no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+}
+
+.menu {
+	width: 100%;
+	text-align: center;
+	display: block;
+	background: #0073d7;
+	padding: 20px 0px;
+}
+
+.menu a {
+	display: inline-block;
+	width: 15%;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	
+}
+
+.banner1 {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.banner1 img {
+	width: 49.5%;
+	display: inline-block;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.banner2 {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.banner2 img {
+	width: 49.5%;
+	display: inline-block;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.banner3 {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.banner3 img {
+	width: 49%;
+	display: inline-block;
+	border: 1px gold solid;
+	box-sizing: border-box;
+}
+
+.iklan {
+	width: 100%;
+}
+
+.iklan img {
+	width: 100%;
+}
+
+.banner-float {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 1px;
+    z-index: 9999
+}
+
+.banner-float img {
+    width: 728px
+}
+
+.content {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid white;
+}
+
+.content h1 {
+	
+	text-align: center;
+	font-size: 24px;
+	
+}
+
+.content h2 {
+	
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.content a {
+	text-decoration: none;
+	color: white;
+}
+
+.content p {
+	text-align: left;
+	color: white;
+}
+
+.sgp {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.judul {
+	color: #ff0000;
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 0px;
+}
+
+.sgp table {
+	width: 100%;
+	
+}
+
+.sgp td {
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.prize {
+	font-size: 28px;
+	background: rgba(73,155,234,1);
+background: -moz-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(17,63,112,1)));
+background: -webkit-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: -o-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: -ms-linear-gradient(top, rgb(3 63 121) 0%, rgb(0 36 74) 100%);
+background: linear-gradient(to bottom, rgb(0 126 236) 0%, rgb(0 98 182) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#113f70', GradientType=0 );
+color: white;
+width: 50%;
+box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.nomprize {
+	font-size: 28px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 50%;
+	background: white;
+}
+
+.nomprize2 {
+	font-size: 28px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 25%;
+	background: white;
+}
+
+.toto {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.toto table {
+	width: 100%;
+	
+}
+
+.toto22 {
+	width: 12.5%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	background: white;
+	color: #0076de;
+	font-size: 36px;
+	border: 1px #0076de solid;
+}
+
+.prtt {
+	width: 50%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	background: linear-gradient(to bottom, rgb(0 126 236) 0%, rgb(0 98 182) 100%);
+	font-size: 36px;
+	border: 1px #0076de solid;
+	color: white;
+}
+
+.prtt2 {
+	width: 50%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	background: white;
+	color: #0076de;
+	font-size: 36px;
+	border: 1px #0076de solid;
+	
+}
+
+.end {
+	width: 100%;
+	height: 100px;
+	background: #5d5d5d;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px 0px;
+	margin-bottom: 100px;
+}
+
+.end h3 {
+	color: white;
+	margin: auto;
+	font-size: 26px;
+}
+
+.end a {
+	text-decoration: none;
+	color: white;
+}
+
+.out-link {
+	list-style-type: square;
+	color: white;
+	margin: 0px 35px;
+}
+
+.out-link a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+.notice {
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.pengumuman {
+	width: 100%;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.notice p {
+	color: black;
+	
+}
+
+
+@media only screen and (max-device-width: 1000px) {
+	.container {
+		width: 100%;
+		
+	}
+	
+	.logo {
+		width: 60%;
+		height: 15%;
+	}
+	
+	.menu {
+		padding: 0px;
+	}
+	
+	.menu a {
+		display: block;
+		font-size: 30px;
+		width: 100%;
+		padding: 15px 0px;
+		border: 1px solid white;
+	}
+	
+	.banner1 {
+		display: block;
+		
+	}
+	.banner1 img {
+		display: block;
+		width: 100%;
+	}
+	
+	.banner2 {
+		display: block;
+		
+	}
+	.banner2 img {
+		display: block;
+		width: 100%;
+	}
+	
+	.banner3 {
+		display: block;
+		
+	}
+	.banner3 img {
+		display: block;
+		width: 100%;
+	}
+    .banner-float {
+        width: 100%
+    }
+
+    .banner-float img {
+        width: 100%
+    }
+	
+	.sgp {
+		width: 100%;
+		
+	}
+	
+	.toto {
+		width: 100%;
+		
+	}
+
+    .result h3 {
+        font-size: 20px
+    }
+
+    .tnglress {
+        font-size: 16px
+    }
+
+	
+	.lassres {
+		width: 100%;
+		
+	}
+.end h3{
+font-size:12px;
+}
+	
+}
